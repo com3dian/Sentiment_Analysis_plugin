@@ -1,0 +1,20 @@
+
+.DS_Store
+plugin/.github/dependabot.yml
+plugin/.github/ISSUE_TEMPLATE/bug_report.yml
+plugin/.github/ISSUE_TEMPLATE/config.yml
+plugin/.github/ISSUE_TEMPLATE/feature_request.yml
+plugin/.github/template-cleanup/gradle.properties
+plugin/.github/template-cleanup/README.md
+plugin/.github/template-cleanup/settings.gradle.kts
+plugin/.github/workflows/build.yml
+plugin/.github/workflows/release.yml
+plugin/.github/workflows/run-ui-tests.yml
+plugin/.github/workflows/template-cleanup.yml
+plugin/.github/workflows/template-verify.yml
+plugin/.run/Run IDE for UI Tests.run.xml
+plugin/.run/Run Plugin.run.xml
+plugin/.run/Run Qodana.run.xml
+plugin/.run/Run Tests.run.xml
+plugin/.run/Run Verifications.run.xml
+plugin/build.gradle.kts

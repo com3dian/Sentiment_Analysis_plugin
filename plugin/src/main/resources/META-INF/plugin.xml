@@ -1,0 +1,28 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>com.europaweg.sentimentanalysis_plugin</id>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+    <name>Sentimen Analysis</name>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor email="com3dian@outlook.com" url="https://www.europaweg.com">Zehao Lu</vendor>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <!-- Extension points defined by the plugin.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow factoryClass="com.europaweg.sentimentanalysis_plugin.windowFactory.OutputWindowFactory" id="Sentiment Analysis Result" anchor="right" icon="/META-INF/icon-4.svg"> </toolWindow>
+    </extensions>
+    <actions>
+        <action id="PopupAction_ID" class="com.europaweg.sentimentanalysis_plugin.actions.PopupAction" text="Sentiment Analysis" icon="/META-INF/icon-4.svg"
+                description="Launch Sentiment Analysis backend.">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+        </action>
+    </actions>
+</idea-plugin>
