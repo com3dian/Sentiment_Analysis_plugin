@@ -126,7 +126,7 @@ The sentiment analysis result will be stored in a markdown file. A typical forma
 >   Sentiment Analysis Result: **negative** :weary:
 >   
 > - ```kotlin
->   ...
+>   // ...
 >   ```
 >
 > ## SecondFile.kt
@@ -145,11 +145,15 @@ Comments extracted from the same file will be displayed together,  regardless of
 
 This section provides a comprehensive overview of the plugin's source code, offering insights into its structure, functionalities, and key components. The following topics delve into different aspects of the codebase, providing valuable information on how each component contributes to the overall functionality.
 
+
+
 #### Project Structure
 
 In this section we explore the organization of files and directories, gaining insights into the layout of the plugin's codebase. Here is a flow map of the plugin's work flow. The details of functionalties for each component will be introduced in the following sections.
 
 ![project structure][file:project-structure]
+
+
 
 #### Actions
 
@@ -193,6 +197,8 @@ The `PopupAction` class in the provided code is an implementation of the `AnActi
 
    Updates the data center with the results of sentiment analysis.
 
+
+
 #### Settings
 
 The `PluginState` class in the provided code is a simple Kotlin class responsible for managing the state of the plugin settings. It uses the IntelliJ IDEA's `PropertiesComponent` to store and retrieve key-value pairs persistently.
@@ -210,6 +216,8 @@ The `PluginState` class in the provided code is a simple Kotlin class responsibl
 3. **Initialization Method (`init`):**
 
    The `init` method is intended for performing any initialization tasks. In this case, it sets default values for `modelPath` and `tokenizerPath` if they are empty.
+
+
 
 #### Pre-Processing
 
@@ -279,6 +287,8 @@ The `TokenizerRunner` class in the provided code is  responsible for tokenizing 
 
    Tokenizes and pads a list of example sentences, then prints the resulting tokenized and padded sentences, the flattened array, and the shape.
 
+
+
 #### Inference
 
 The `RobertaInference` class in the provided code is responsible for performing inference using the given ORT (ONNX Runtime) model.
@@ -300,6 +310,8 @@ The `RobertaInference` class in the provided code is responsible for performing 
    Retrieves the output tensor (`"output"`) from the prediction result.
 
    Converts the output tensor to a `FloatArray` and returns it.
+
+
 
 #### Post-processing
 
@@ -326,6 +338,8 @@ The `postProcessing` function in the provided code performs post-processing on t
 4. **Handling Null Input:**
 
    If the input `floatArray` is null, the function returns `null`.
+
+
 
 #### DataCenter
 
@@ -373,6 +387,8 @@ The `DataCenter` class in the provided code is a singleton  class responsible fo
 
    `show()`: Prints the contents of the `outputsMap` for debugging purposes.
 
+
+
 #### Window
 
 The `OutputWindow` class appears to be a graphical user  interface (GUI) component designed for the Sentiment Analysis plugin. It provides a tool window within the IntelliJ IDEA environment, allowing  users to interact with sentiment analysis results.
@@ -418,6 +434,8 @@ The `OutputWindow` class appears to be a graphical user  interface (GUI) compone
 7. **Document Title:**
 
    Allows the user to input a document title.
+
+
 
 #### Writer
 
