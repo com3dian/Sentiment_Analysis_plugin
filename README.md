@@ -2,7 +2,7 @@
 
 This repository houses the solution implemented by Zehao Lu for the Programming Task: 'Kotlin Comments Sentiment Analysis' plugin development.
 
-# Project Structure
+## Project Structure
 
 This repo has the following structure:
 
@@ -27,4 +27,17 @@ Sentiment_Analysis_plugin
     |-- example_kotlin.kt                           // dummy kotlin file to demonstrate the sentiment analysis plugin.
     |-- example_outputs.md                          // results from sentiment analysis plugin.
 
-```'
+```
+
+### Useful Links
+
+[Plugin .jar](https://github.com/com3dian/Sentiment_Analysis_plugin/blob/main/built/Sentiment%20Analysis%20Plugin-1.2-uber.jar)
+
+[User Manual](https://github.com/com3dian/Sentiment_Analysis_plugin/tree/main/plugin)
+
+[Plugin Description](https://github.com/com3dian/Sentiment_Analysis_plugin/tree/main/plugin)
+
+[Examples]()
+
+
+
