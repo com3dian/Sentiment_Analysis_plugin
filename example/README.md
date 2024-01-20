@@ -18,10 +18,6 @@ The prediction made by the plugin is:
 
 We can see the comment is successfully extracted and result is positive.
 
-
-
-
-
 Also from line 17 - 19, there are two semantically negative comments.
 
 ![](./.github/lin17-19.png)
@@ -39,4 +35,14 @@ The corresponding predictions are both negative:
 >   // Wow, a comment within a comment, how meta!
 >   ```
 >   Sentiment Analysis Result: **negative** :weary:
+
+
+### Multiple Lines Comment
+
+From line 26 to 39, there is a multi-line comment:
+
+![](./.github/multiline1.png)
+
+
+
 
