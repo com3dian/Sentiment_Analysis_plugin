@@ -43,6 +43,14 @@ From line 26 to 39, there is a multi-line comment:
 
 ![](./.github/multiline1.png)
 
+And the extracted comment and sentiment result is:
 
+> - ```kotlin
+>   /*
+>   * Don't even bother reading this code, it's a waste of time.
+>   * This function is like a black hole of coding futility.
+>   */
+>   ```
+>   Sentiment Analysis Result: **negative** :weary:
 
 
