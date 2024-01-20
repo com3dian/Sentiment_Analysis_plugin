@@ -43,7 +43,7 @@ Sentiment_Analysis_plugin
 
 [Plugin Description](https://github.com/com3dian/Sentiment_Analysis_plugin/tree/main/plugin)
 
-[Examples]()
+[Examples](https://github.com/com3dian/Sentiment_Analysis_plugin/tree/main/example)
 
 
 
