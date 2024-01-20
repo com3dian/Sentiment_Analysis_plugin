@@ -20,9 +20,10 @@ Sentiment_Analysis_plugin
                                                        as a plugin. */
 
 |-- plugin                     // the plugin folder
-    |-- README.md                                   /* Contains a basic description, a detailed
-                                                       **User Manual**, and a section of code
-                                                        analysis of the source code. */
+    |-- README.md                                   /* Contains a basic description, a
+                                                       detailed **User Manual**, and a
+                                                       section of code analysis of the source
+                                                       code. */
     |-- src                                         /* source code including main and test
                                                        of the the plugin. */
     |-- .github                                     // images neccessary for the README file.
