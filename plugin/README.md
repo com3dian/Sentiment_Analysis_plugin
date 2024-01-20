@@ -93,7 +93,7 @@ The tool window is positioned in the top right corner by default. Clicking the <
 
 In the output table, the 'File' column contains the extracted file names, the 'Comment' column stores the original comments, and the 'Prediction' column displays the sentiment analysis result as either positive or negative. Clicking the <kbd>Clear</kbd> button removes all results, while clicking the <kbd>Close</kbd> button shuts the tool window without deleting the data.
 
-<img src='./.github/readme/tool-window-table.png' width='25'>
+<img src='./.github/readme/tool-window-table.png' width='250'>
 
 To generate an output file containing all results, you must provide a <kbd>Document Title</kbd> in the designated input field; this title will also serve as the output file name. If no document title is provided, the plugin  will prompt an information window displaying the message 'Document title can not be empty.'
 
