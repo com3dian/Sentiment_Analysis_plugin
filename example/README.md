@@ -22,7 +22,7 @@ Also from line 17 - 19, there are two semantically negative comments.
 
 ![](./.github/lin17-19.png)
 
-The corresponding predictions are:
+The corresponding predictions are both negative:
 
 > - ```kotlin
 >   // Who needs this function anyway?
