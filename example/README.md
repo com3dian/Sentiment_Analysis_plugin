@@ -53,4 +53,16 @@ And the extracted comment and sentiment result is:
 >   ```
 >   Sentiment Analysis Result: **negative** :weary:
 
+The sentiment analysis automatically treat consequential one-line comment as a block. At line 49, 50, there is such a block:
+
+![](./.github/multiline2.png)
+
+The block is successfully detected and treated as one paragraph of comment.
+
+> - ```kotlin
+>   // Look at this beautiful conditional statement!
+>   // This line is like a beacon of positivity in the coding darkness.
+>   ```
+>   Sentiment Analysis Result: **positive** :smile:
+
 
