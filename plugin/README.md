@@ -51,7 +51,7 @@ We introduce the following contents in this README.
  - [x] The plugin uses the provided [tokenizer](https://github.com/purecloudlabs/roberta-tokenizer/tree/main);
  - [x] The code is covered with tests;
  - [x] The **model inference** operation is run under the `import com.intellij.openapi.progress.ProgressManager` as a background task `Task.Backgroundable`.  The **output writing** action is done through the `Application.runWriteAction()` API;
- - [ ] This repository contains a built plugin, a test project and a README file as user manual;
+ - [x] This repository contains a built plugin, a test project and a README file as user manual;
  - [x] The plugin works with Intellij IDEA 2023.2.3 or higher;
  - [x] The solution is provided via a GitHub link;
 
@@ -67,7 +67,7 @@ To begin, make sure to download the Roberta model and the associated tokenizer r
 
 If the user decide not to choose the resources file, the plugin will stay silence until the user runs the plugin again.
 
-You can find the necessary resources in this repository at the following link: #TODO: link. The tokenizer resources are sourced from https://huggingface.co/roberta-base/tree/main, and the Roberta model is obtained from https://github.com/onnx/models/tree/main/validated/text/machine_comprehension/roberta.
+You can find the necessary tokenizer resources in this repository at the following link: https://github.com/com3dian/Sentiment_Analysis_plugin/tree/main/Roberta-resources/roberta-tokenizer. The tokenizer resources are sourced from https://huggingface.co/roberta-base/tree/main, and the Roberta model is obtained from https://github.com/onnx/models/tree/main/validated/text/machine_comprehension/roberta.
 
 #### PopupAction
 
