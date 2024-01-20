@@ -1,6 +1,6 @@
 # Kotlin Comments Sentiment Analysis Plugin ![](./plugin/src/main/resources/META-INF/pluginIcon.svg)
 
-This repository houses the solution implemented by **Zehao Lu** for the Programming Task: 'Kotlin Comments Sentiment Analysis' plugin development.
+This repository contains the solution implemented by **Zehao Lu** for the Programming Task: 'Kotlin Comments Sentiment Analysis' plugin development.
 
 ## Project Structure
 
