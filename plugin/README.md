@@ -1,5 +1,3 @@
-# ![](./src/main/resources/META_INF/pluginIcon.svg)   Sentiment Analysis Plugin
-
 # Sentiment Analysis Plugin  ![](./src/main/resources/META-INF/pluginIcon.svg)
 
 <!-- Plugin description -->
