@@ -50,4 +50,4 @@ Sentiment_Analysis_plugin
 
 The plugin is dveloped on linux and tested on Mac os and windows. On MacOS, the file choosers fails to show the description, but the user will still be informed which resources is missing.
 
-The plugin icon ![](./plugin/src/main/resources/META-INF/plugin-4.svg) and created by [eka ysdsgn](https://thenounproject.com/eka094/). The icon can be used in non-profit project and must attribute creator per Creative Commons license.
+The plugin icon ![](./plugin/src/main/resources/META-INF/icon-4.svg) and created by [eka ysdsgn](https://thenounproject.com/eka094/). The icon can be used in non-profit project and must attribute creator per Creative Commons license.
