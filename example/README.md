@@ -67,7 +67,7 @@ The block is successfully detected and treated as one paragraph of comment.
 
 ### Corner Cases
 
-There are also some corner cases worth showing. At line 51, there is a single-line comment indicator `//` enclosed within quotation marks, treating it as a String.
+There are also some corner cases worth showing to demonstrate the robustness of the plugin. At line 51, there is a single-line comment indicator `//` enclosed within quotation marks, treating it as a String.
 
 ![](./.github/corner1.png)
 
