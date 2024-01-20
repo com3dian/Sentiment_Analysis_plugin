@@ -53,7 +53,7 @@ And the extracted comment and sentiment result is:
 >   ```
 >   Sentiment Analysis Result: **negative** :weary:
 
-The sentiment analysis automatically treat consequential one-line comment as a block. At line 49, 50, there is such a block:
+The sentiment analysis automatically treat successive one-line comment as a block. At line 49, 50, there is such a block:
 
 ![](./.github/multiline2.png)
 
@@ -76,3 +76,21 @@ and at line 54, there is a pair of multi-line comment indicators `/* ... */` enc
 ![](./.github/corner1.png)
 
 Those 'comment in String' lines won't be detected as actual comments, therefore will not show in the results file.
+
+From line 58 to 60, there is two un-successive single-line comments.
+
+![](./.github/twolines.png)
+
+In this case, the comments will be separated and detected as two independent comments.
+
+> - ```kotlin
+>   // This comment is more useful than the entire codebase.
+>   ```
+>   Sentiment Analysis Result: **positive** :smile:
+>
+>
+>
+> - ```kotlin
+>   // But hey, at least it's something!
+>   ```
+>   Sentiment Analysis Result: **positive** :smile:
