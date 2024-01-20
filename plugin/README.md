@@ -49,7 +49,7 @@ We introduce the following contents in this README.
  - [x] The plugin uses the provided [tokenizer](https://github.com/purecloudlabs/roberta-tokenizer/tree/main);
  - [x] The code is covered with tests;
  - [x] The **model inference** operation is run under the `import com.intellij.openapi.progress.ProgressManager` as a background task `Task.Backgroundable`.  The **output writing** action is done through the `Application.runWriteAction()` API;
- - [x] This repository contains a built plugin, a test project and a README file as user manual;
+ - [x] This repository contains a built plugin, source codes and a README file as user manual;
  - [x] The plugin works with Intellij IDEA 2023.2.3 or higher;
  - [x] The solution is provided via a GitHub link;
 
