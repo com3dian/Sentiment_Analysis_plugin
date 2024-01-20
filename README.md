@@ -25,7 +25,7 @@ Sentiment_Analysis_plugin
                                                        section of code analysis of the source
                                                        code. */
     |-- src                                         /* source code including main and test
-                                                       of the the plugin. */
+                                                       of the plugin. */
     |-- .github                                     // images neccessary for the README file.
 
 |-- example                    // the example folder
