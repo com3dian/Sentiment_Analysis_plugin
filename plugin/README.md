@@ -20,7 +20,7 @@ The **Sentiment Analysis Plugin** for IntelliJ is a powerful tool designed to en
 
 We introduce the following contents in this README.
 
-- [Requirements](#requirements)
+- [Task Requirements](#task-requirements)
 - [User Manual](#user-manual)
   - [Resources](#resources)
   - [PopupAction](#popupaction)
