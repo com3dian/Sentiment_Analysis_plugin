@@ -1,6 +1,6 @@
 # Case study
 
-We show some cases of the sentiment analysis examples and outputs here.
+We showcase some of the sentiment analysis examples and outputs here.
 
 
 ### Simple case 
