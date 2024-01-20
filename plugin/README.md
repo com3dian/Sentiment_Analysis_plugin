@@ -1,6 +1,6 @@
 # ![](.src/main/resources/META_INF/pluginIcon.svg) Sentiment Analysis Plugin
 
-
+![](.src/main/resources/META_INF/pluginIcon.svg)
 
 <!-- Plugin description -->
 
