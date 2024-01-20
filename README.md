@@ -46,4 +46,6 @@ Sentiment_Analysis_plugin
 [Examples](https://github.com/com3dian/Sentiment_Analysis_plugin/tree/main/example)
 
 
+### Notes
 
+The plugin is dveloped on linux and tested on Mac os and windows. On Macos, the file choosers failed to show the description, but the user will be informed which resources is missing.
