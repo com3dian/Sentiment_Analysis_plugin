@@ -48,6 +48,6 @@ Sentiment_Analysis_plugin
 
 ### Notes
 
-The plugin is dveloped on linux and tested on Mac os and windows. On Macos, the file choosers fails to show the description, but the user will still be informed which resources is missing.
+The plugin is dveloped on linux and tested on Mac os and windows. On MacOS, the file choosers fails to show the description, but the user will still be informed which resources is missing.
 
 The plugin icon is sourced from [thenounproject](https://thenounproject.com/icon/sentiment-analysis-5937307/) and created by [eka ysdsgn](https://thenounproject.com/eka094/). The icon can be used in non-profit project and must attribute creator per Creative Commons license.
