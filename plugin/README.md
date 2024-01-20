@@ -40,7 +40,7 @@ We introduce the following contents in this README.
 
 
 
-## Task Requirments
+## Task Requirements
 
  - [x] The plugin has been developed using both Java and Kotlin. Specifically, Java was employed for implementing functionalities such as `commentDetection`, `tokenize`, `window`, `windowFactory`, and `writer`, while Kotlin was used for the rest functionalities.
  - [x] The plugin is built via the IntelliJ Platform Plugin Template;
