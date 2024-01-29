@@ -73,7 +73,7 @@ There are also some corner cases worth showing to demonstrate the robustness of 
 
 and at line 54, there is a pair of multi-line comment indicators `/* ... */` enclosed within quotation marks.
 
-![](./.github/corner1.png)
+![](./.github/corner2.png)
 
 Those 'comment in String' lines won't be detected as actual comments, therefore will not show in the results file.
 
